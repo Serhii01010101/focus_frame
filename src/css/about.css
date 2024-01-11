@@ -1,0 +1,17 @@
+.about-h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #BEA69E;
+}
+
+.about-h2-us {
+    color: #06280a;
+}
+
+.menu-about {
+    list-style: none; 
+}
+
