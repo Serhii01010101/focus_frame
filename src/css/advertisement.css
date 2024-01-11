@@ -1,9 +1,12 @@
+/* .container-advirtisment {
+  padding: 0;
+} */
 .advertisment-container {
-  padding: 20px 15px;
+  padding: 20px 0;
   overflow: hidden;
   text-transform: uppercase;
   background-color: #121212;
-  margin: 0;
+
   stroke-width: 1px;
   stroke: rgba(255, 255, 255, 0.2);
 }
