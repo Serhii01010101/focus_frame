@@ -22,7 +22,7 @@
 }
 .contacts-list{
     color: #FFF;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28em;
@@ -37,7 +37,7 @@
     flex-direction: column;
     gap: 20px;
     color: #FFF;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 14px;
     font-weight: 400;
     line-height:normal;
@@ -47,7 +47,7 @@
     flex-direction: column;
     gap: 20px;
     color: #FFF;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
@@ -66,8 +66,15 @@
     display: flex;
     justify-content: space-between;
     color: #FFF;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28em;
+}
+.social-link{
+    color: #FFF;
+        font-family: 'DM Sans';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
 }
