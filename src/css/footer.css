@@ -1,0 +1,26 @@
+.footer{
+    
+    border: 2px solid;
+    width: 1440px;
+    height: 331px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.footer-all{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-list{
+    display: flex;
+    flex-direction: column;
+}
+.social-list{
+    display: flex;
+    flex-direction: column;
+}
+.Privacy-list{
+    display: flex;
+    justify-content: space-between;
+}
