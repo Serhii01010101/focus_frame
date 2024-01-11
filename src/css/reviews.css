@@ -1,27 +1,59 @@
-.container {}
+.rev-container {
+  max-width: 320px;
+}
 
-.title {}
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: -1, 12px;
+  padding-bottom: 40px;
+}
 
-.rev-menu {}
+.rev-menu {
+}
 
-.rev-list {}
+.rev-list {
+}
 
-.rev-item {}
+.rev-item {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
 
-.rev-item-box {}
+.rev-item-box {
+}
 
-.rev-photo {}
+.rev-photo {
+}
 
-.rev-name {}
+.rev-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1, 2;
+}
 
-.rev-position {}
+.rev-position {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1, 33;
+  letter-spacing: -0.24px;
+}
 
-.rev-box-icon {}
+.rev-box-icon {
+}
 
-.rev-icon-list {}
+.rev-icon-list {
+}
 
-.rev-icon-item {}
+.rev-icon-item {
+}
 
-.rev-icon {}
+.rev-icon {
+}
 
-.rev-text {}
+.rev-text {
+  font-size: 14px;
+  line-height: 1, 28;
+  letter-spacing: -0.28px;
+}
