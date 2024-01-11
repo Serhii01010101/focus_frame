@@ -10,15 +10,30 @@
 }
 .footer-all{
     display: flex;
-    justify-content: space-between;
+    
+}
+.footer-logo{
+    margin-bottom: 25px;
+
+}
+.contacts{
+    margin-bottom: 133px;
+    margin-right: 340px;
+}
+.social-navigation{
+    display: flex;
+    gap: 100px;
+    margin-right: 191px;
 }
 .navigation-list{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .social-list{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .Privacy-list{
     display: flex;
