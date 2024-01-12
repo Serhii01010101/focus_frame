@@ -16,7 +16,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -1,12px;
+  letter-spacing: -1.12px;
   padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
@@ -61,7 +61,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .rev-item:last-child {
     display: flex;
   }
