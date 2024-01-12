@@ -1,17 +1,65 @@
-.about-h2 {
+.about-title {
     font-size: 48px;
     font-weight: 500;
-    line-height: 54px;
+    line-height: 1.14;
     text-align: left;
-    letter-spacing: 0.05em;
     color: #BEA69E;
+    /*letter-spacing: -4px;
+    width: 114px;*/
 }
 
-.about-h2-us {
-    color: #06280a;
+.about-title-us {
+    color: #ffffff;
+    letter-spacing: -4px;
 }
 
-.menu-about {
-    list-style: none; 
+.about-p {
+    font-size: 14px;
+    line-height: 1,29;
+    color: #ffffff;
+}
+/*fontFamily = FontFamily(Font(R.font.dm sans)),
+fontWeight = FontWeight(400),*/
+
+.about-list {
+    display: flex;  /*06-12 для розміщення елементів списку по горизонталі в рядок*/
+    gap: 20px 40px;      /*для мобілки 20 - відступ між рядками,
+                          і заодно для планшета 40 - відступ між стовпчиками
+                          це - розмір відступів між елементами списку*/
+    flex-direction: column; /*ДЗ-6 - для мобілки розміщення в стовпчик*/
+    margin-top: 40px;
 }
 
+@media screen and (min-width: 768px) {
+    .about-list {
+        flex-direction: row;   /*для планшета на 2 колонки*/
+        flex-wrap: wrap;       /*для планшета на 2 колонки*/
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about-item {
+        width: 335px;
+    }
+}   
+
+@media screen and (min-width: 768px) {
+    .about-item {
+        width: calc((100% - 40px) / 2);   /*для планшета на 2 колонки*/
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .about-item {
+        width: calc((100% - 80px) / 3);  /*ДЗ-6 - для десктоп*/
+    }
+}
+
+
+.about-item {
+    list-style: none;
+}
+
+.about-box-img {
+    margin-bottom: 40px;
+}
