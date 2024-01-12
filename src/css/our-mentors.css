@@ -5,7 +5,7 @@
 }
 
 .ourmentors-container {
-    max-width: 375px;
+  max-width: 375px;
 }
 @media only screen and (min-width: 768px) {
   .ourmentors-container {
@@ -51,8 +51,8 @@
 
 .ourmentors-list {
   display: flex;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   gap: 40px;
   justify-content: center;
 }
@@ -100,10 +100,10 @@
   max-width: 149px;
   display: flex;
   flex-direction: column;
-  padding-top: 16px;
-  gap: 4px;
   align-items: center;
   justify-content: center;
+  padding-top: 16px;
+  gap: 4px;
 }
 @media only screen and (min-width: 768px) {
   .ourmentors-content {
