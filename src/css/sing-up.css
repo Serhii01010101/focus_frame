@@ -110,7 +110,8 @@
   }
   .sing-up-img-lense {
     position: absolute;
-    bottom: 62px;
+    bottom: 40px;
+    right: 25px;
   }
   .sing-up-wrapper-camera {
     position: relative;
