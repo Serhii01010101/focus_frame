@@ -26,6 +26,9 @@
   height: 244px;
 }
 
+.rev-item:last-child {
+  display: none
+}
 .rev-item-box {
   
 }
