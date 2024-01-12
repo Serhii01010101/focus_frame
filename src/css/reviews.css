@@ -16,7 +16,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -1, 12px;
+  letter-spacing: -1,12px;
   padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
@@ -27,7 +27,6 @@
 @media screen and (min-width: 1280px) {
   .title {
     font-size: 48px;
-    font-weight: 500;
     line-height: 1.12;
     letter-spacing: -1.92px;
   }
@@ -53,8 +52,8 @@
 }
 @media screen and (min-width: 1280px) {
   .rev-item {
-    width: 610px;
-    height: 196px;
+    width: 530px;
+    height: 216px;
   }
 }
 
@@ -161,6 +160,6 @@
 
 @media screen and (min-width: 1280px) {
   .rev-text {
-    width: 570px;
+    width: 490px;
   }
 }
