@@ -20,7 +20,7 @@
 
     <title>Focus.Frame</title>
     <script type="module" crossorigin src="/focus_frame/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/focus_frame/assets/index-7a79abe8.css">
+    <link rel="stylesheet" href="/focus_frame/assets/index-758e87d6.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -166,7 +166,78 @@
 
 
       <!-- sing-up -->
-      <section>sing up</section>
+      <section class="section-sing-up">
+  <div class="container sing-up-container">
+    <div class="sing-up-wrapper-info">
+      <h2 class="sing-up-title">
+        Sign <span class="sing-up-title-accent">Up</span>
+      </h2>
+      <p class="sing-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <!-- form -->
+      <form class="sing-up-form">
+        <div class="sing-up-form-wrapper">
+          <div class="sing-up-form-elem">
+            <input
+              class="sing-up-form-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="sing-up-form-elem">
+            <input
+              class="sing-up-form-input"
+              type="email"
+              id="user-email"
+              name="user-email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="sing-up-form-elem">
+            <textarea
+              class="sing-up-form-message"
+              name="feedback"
+              rows="5"
+              placeholder="Message"
+              type="submit"
+            ></textarea>
+          </div>
+        </div>
+        <button class="sing-up-form-btn" type="submit" disabled>SEND</button>
+        <div class="sing-up-form-agreement">
+          <p>
+            By clicking on “Send” button, you agree to our
+            <a class="sinp-up-agreement-link" href="">Privacy Policy, </a>and
+            allow Promodo to use this information for marketing purposes.
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="sing-up-wrapper-photos">
+      <div class="sing-up-wrapper-lins">
+        <img
+          class="sing-up-img-lense"
+          src="../img/sign-up/lense.png"
+          alt="lins"
+          width="150"
+        />
+      </div>
+      <div class="sing-up-wrapper-camera">
+        <img
+          class="sing-up-img-camera"
+          src="../img/sign-up/camera.png"
+          alt="camera"
+          width="240"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <!-- reviews -->
       <section>
@@ -242,52 +313,59 @@
 
     <!-- footer -->
     <section class="footer">
-    <div class="footer-all">
-        <div>
-            <div class="footer-logo">
-                <a href="посилання на головну">
-                    <img class="logo-img" src="шлях на іконку" alt="FocusFrame">
-                </a>
-            </div>
-            <div class="contacts">
-                <ul class="contacts-list">
-                    <li>Ua: +38 066 543 8912</li>
-                    <li>Ukraine, Kyiv</li>
-                </ul>
-            </div>
-        </div>
-        <div class="social-navigation">
-            <ul class="social-list">
-                <a class="social-link" href="посилання">instagram</a>
-                <a href="посилання">facebook</a>
-                <a href="посилання">youtube</a>
-            </ul>
-            <ul class="navigation-list">
-                <a href="">About us</a>
-                <a href="">Our courses</a>
-                <a href="">Our mentors</a>
-                <a href="">Reviews</a>
-                <a href="">contacts</a>
-            </ul>
-        </div>
-
-
-
-        <div class="form-email">
-            <input class="input-email" type="email" id="email" name="email" placeholder="Введіть ваш email"
-                aria-label="Email">
-            <button class="btn-form-email" type="submit">GO</button>
-        </div>
+  <div class="footer-all">
+    <div>
+      <div class="footer-logo">
+        <a href="посилання на головну">
+          <img class="logo-img" src="шлях на іконку" alt="FocusFrame" />
+        </a>
+      </div>
+      <div class="contacts">
+        <ul class="contacts-list">
+          <li>Ua: +38 066 543 8912</li>
+          <li>Ukraine, Kyiv</li>
+        </ul>
+      </div>
     </div>
-    <div class="Privacy-list">
-        <p>Privacy Policy Public Offering Agreement</p>
-        <p>2023 Focus Frame © All rights reserved</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quod voluptatum aspernatur iure officia
-            earum dolores mollitia sequi placeat vero cupiditate labore. Corporis iure dolorem aperiam, itaque earum a
-            veritatis.</p>
+    <div class="social-navigation">
+      <ul class="social-list">
+        <a class="social-link" href="посилання">instagram</a>
+        <a href="посилання">facebook</a>
+        <a href="посилання">youtube</a>
+      </ul>
+      <ul class="navigation-list">
+        <a href="">About us</a>
+        <a href="">Our courses</a>
+        <a href="">Our mentors</a>
+        <a href="">Reviews</a>
+        <a href="">contacts</a>
+      </ul>
     </div>
 
+    <div class="form-email">
+      <input
+        class="input-email"
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Введіть ваш email"
+        aria-label="Email"
+      />
+      <button class="btn-form-email" type="submit">GO</button>
+    </div>
+  </div>
+  <div class="Privacy-list">
+    <p>Privacy Policy Public Offering Agreement</p>
+    <p>2023 Focus Frame © All rights reserved</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quod
+      voluptatum aspernatur iure officia earum dolores mollitia sequi placeat
+      vero cupiditate labore. Corporis iure dolorem aperiam, itaque earum a
+      veritatis.
+    </p>
+  </div>
 </section>
+
 
     
   </body>
