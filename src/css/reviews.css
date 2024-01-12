@@ -1,11 +1,12 @@
 .rev-container {
   max-width: 375px;
+  min-width: 335px;
 }
 
 .title {
   font-size: 28px;
   font-weight: 500;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: -1, 12px;
   padding-bottom: 40px;
 }
@@ -17,33 +18,61 @@
 }
 
 .rev-item {
+  display: flex;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  width: 335px;
+  height: 244px;
 }
 
 .rev-item-box {
+  
 }
 
+.rev-box-user{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 211px;
+}
 .rev-photo {
+  width: 56px;
+  height: 56px;
+}
+
+.rev-user-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
 }
 
 .rev-name {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 
 .rev-position {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
-  line-height: 1, 33;
+  line-height: 1.33;
   letter-spacing: -0.24px;
 }
 
 .rev-box-icon {
+  position: relative;
+  top: 4px;
+  left: 66px;
+  margin-bottom: 20px;
 }
 
 .rev-icon-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
 }
 
 .rev-icon-item {
@@ -54,6 +83,7 @@
 
 .rev-text {
   font-size: 14px;
-  line-height: 1, 28;
+  line-height: 1.28;
   letter-spacing: -0.28px;
+  width: 295px;
 }
