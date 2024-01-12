@@ -39,8 +39,8 @@
   
 }
 .rev-photo {
-  width: 56px;
-  height: 56px;
+  border-radius: 100px;
+  background-color: #E0E0E0;
 }
 
 .rev-user-info{
