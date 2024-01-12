@@ -1,3 +1,38 @@
+.about {
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        margin-left: 32px; 
+        margin-right: 32px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1278px) {
+    .about-list {
+        margin-left: 100px; 
+        margin-right: 100px;
+        margin-bottom: 150px;
+    }
+}
+
+.about-row-column {    
+        display:flex;
+        gap: 40px;        
+        flex-direction: column; 
+}
+
+@media screen and (min-width: 1278px) {
+    .about-row-column {
+        display:flex;
+        flex-direction: row;   
+    }
+}  
+
 .about-title {
     font-size: 48px;
     font-weight: 500;
@@ -9,57 +44,69 @@
 }
 
 .about-title-us {
-    color: #ffffff;
+    color: white;
     letter-spacing: -4px;
 }
 
 .about-p {
     font-size: 14px;
-    line-height: 1,29;
-    color: #ffffff;
+    color: white;
+    letter-spacing: -0.28px;
+    padding: 0;
+    line-height: 18px;
 }
-/*fontFamily = FontFamily(Font(R.font.dm sans)),
-fontWeight = FontWeight(400),*/
 
 .about-list {
-    display: flex;  /*06-12 для розміщення елементів списку по горизонталі в рядок*/
-    gap: 20px 40px;      /*для мобілки 20 - відступ між рядками,
-                          і заодно для планшета 40 - відступ між стовпчиками
-                          це - розмір відступів між елементами списку*/
-    flex-direction: column; /*ДЗ-6 - для мобілки розміщення в стовпчик*/
+    display: flex;          /*розміщення елементів списку по горизонталі в рядок*/
+    gap: 20px 40px;         /*для мобілки 20 - відступ між рядками, для планшета 40 - між стовпчиками*/
+    flex-direction: column; /*для мобілки розміщення в стовпчик*/
     margin-top: 40px;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .about-list {
         flex-direction: row;   /*для планшета на 2 колонки*/
         flex-wrap: wrap;       /*для планшета на 2 колонки*/
     }
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .about-item {
         width: 335px;
     }
 }   
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .about-item {
         width: calc((100% - 40px) / 2);   /*для планшета на 2 колонки*/
     }
 }
-
-@media screen and (min-width: 1158px) {
-    .about-item {
-        width: calc((100% - 80px) / 3);  /*ДЗ-6 - для десктоп*/
-    }
-}
-
 
 .about-item {
     list-style: none;
 }
 
 .about-box-img {
-    margin-bottom: 40px;
+    border: 1px solid #BEA69E;
+    border-radius: 1000px;
+    text-align: center;
+}
+
+.about-box-img {
+    width: 335px;
+    height: 209px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-box-img {
+        width: 704px;
+        height: 340px;
+    }
+}
+
+@media screen and (min-width: 1278px) {
+    .about-box-img {
+        width: 488px;
+        height: 260px;
+    }
 }
