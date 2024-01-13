@@ -1,5 +1,5 @@
 body {
-  font-family: DM Sans;
+  font-family: 'DM Sans';
   font-weight: 400;
 
   color: var(--main-color-white);
@@ -9,6 +9,7 @@ body {
 
 .container {
   min-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
