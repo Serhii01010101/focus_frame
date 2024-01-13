@@ -1,16 +1,43 @@
 <section class="about">
-    <div class="container">
+    <div class=" container about-container">
+
         <h2 class="about-title">About <span class="about-title-us">Us</span></h2>
 
+        <div class="about-row-column">
         <div class="about-box-img"> 
-                <img 
-                src="./images/about/about-mob@1x.jpg" 
+
+            <picture>
+                <!-- Desktop screen -->
+                <source
+                    media="(min-width: 1278px)"
+                    srcset="
+                    ./img/about/about-desk1x.png 1x,
+                    ./img/about/about-desk2x.png 2x"
+                />
+                <!-- Tablet screen -->
+                <source
+                    media="(min-width: 768px)"
+                    srcset="
+                    ./img/about/about-table1x.png 1x,
+                    ./img/about/about-table2x.png 2x"
+                />
+
+                <!-- Mobile screen -->
+                <source
+                    media="(max-width: 767px)"
+                    srcset="
+                    ./img/about/about-mob1x.png 1x,
+                    ./img/about/about-mob2x.png 2x"
+                />
+
+                <img class="about-box-src"
+                src="./img/about/about-desk1x.png" 
                 alt="black camera and pink background" 
-                width="209">
+                loading="lazy"/>
+            </picture>
         </div> 
 
         <ul class="about-list">
-
             <li class="about-item">
                 <div class="about-ul-li-div"> 
                     <p class="about-p">
@@ -25,22 +52,6 @@
             <li class="about-item">
                 <div class="about-ul-li-div"> 
                     <p class="about-p">
-                        Our courses cover a wide range of topics, from the basics of photography and equipment use to professional 
-                        image processing and creating impressive compositions. You will have the opportunity to learn 
-                        the technical aspects of photography, 
-                        discover your own style and develop your own visual language.
-                    </p>
                 </div>
-            </li>
-        </ul>
             
-    </div>
-    <!--           <li class="about-item">
-                <div class="about-box-img"> 
-                    <img 
-                    src="./images/about/about-mob@1x.jpg" 
-                    alt="black camera and pink background" 
-                    width="209">
-                </div>
-            </li>-->
 </section>  

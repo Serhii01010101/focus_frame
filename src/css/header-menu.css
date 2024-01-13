@@ -7,7 +7,7 @@
     height: 100%;
     opacity: 0;
     transform: translateX(100%);
-    transition: transform 500ms ease-in, visibility 500ms ease-in, opacity 500ms ease-in;
+    transition: transform 0 ease-in, visibility 0 ease-in, opacity 0 ease-in;
     visibility: hidden;
     pointer-events: none;
 }
@@ -18,6 +18,8 @@
     transform: translateX(0);
     visibility: visible;
 }
+
+
 
 .header-menu {
     position: absolute;
@@ -32,7 +34,21 @@
     background-size: contain;
     padding-top: 180px;
     padding-left: 20px;
+    opacity: 0;
+    transition: transform 350ms ease-in, visibility 350ms ease-in, opacity 350ms ease-in;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateX(100%);
 }
+
+.header-menu.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+    visibility: visible;
+}
+
+
 @media (min-resolution: 192dpi) {
     .header-menu {
         background-image: url(../img/header-img/menumob@2x.png);
