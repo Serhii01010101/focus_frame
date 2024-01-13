@@ -7,7 +7,7 @@
     height: 100%;
     opacity: 0;
     transform: translateX(100%);
-    transition: transform 500ms ease-in, visibility 500ms ease-in, opacity 500ms ease-in;
+    transition: transform 150ms ease-in, visibility 150ms ease-in, opacity 150ms ease-in;
     visibility: hidden;
     pointer-events: none;
 }
@@ -19,6 +19,8 @@
     visibility: visible;
 }
 
+
+
 .header-menu {
     position: absolute;
     top: 0;
@@ -26,13 +28,17 @@
     background:  #BEA69E;
     height: 100vh;
     width: 218px;
-    background-image: url(../img/header-img/menumob@1x.png);
+    background-image: url(.з./img/header-img/menumob@1x.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
     padding-top: 180px;
     padding-left: 20px;
+  
 }
+
+
+
 @media (min-resolution: 192dpi) {
     .header-menu {
         background-image: url(../img/header-img/menumob@2x.png);
