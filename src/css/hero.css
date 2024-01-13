@@ -92,3 +92,7 @@ h1 {
     #e0e0e0
   );
 }
+
+.container-hero {
+  padding-bottom: 80px;
+}
