@@ -3,7 +3,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
 <defs>
 <symbol id="icon-arrow-narrow-up-right" viewBox="0 0 32 32">
-<path fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667" style="stroke:var(--color1, #777)"/>
+<path fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667" style="stroke:var(--color1, #)"/>
 </symbol>
 <symbol id="icon-nav" viewBox="0 0 46 32"><path stroke-linecap="round" stroke-width="3.429" d="M8.671 5.074H44M8.671 24.468H44M19.602 14.771H44"/>
 </symbol>
