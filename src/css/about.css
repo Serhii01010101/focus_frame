@@ -2,6 +2,7 @@
     margin-left: 20px; 
     margin-right: 20px; 
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -9,6 +10,7 @@
         margin-left: 32px; 
         margin-right: 32px;
         margin-bottom: 100px;
+        margin-top: 100px;
     }
 }
 
@@ -17,6 +19,7 @@
         margin-left: 100px; 
         margin-right: 100px;
         margin-bottom: 150px;
+        margin-top: 150px;
     }
 }
 
@@ -24,6 +27,7 @@
         display:flex;
         gap: 40px;        
         flex-direction: column; 
+        width: 1080px;
 }
 
 @media screen and (min-width: 1278px) {
@@ -39,6 +43,8 @@
     line-height: 1.14;
     text-align: left;
     color: #BEA69E;
+    padding-top: 80px;
+    padding-bottom: 40px;
     /*letter-spacing: -4px;
     width: 114px;*/
 }
@@ -48,12 +54,27 @@
     letter-spacing: -4px;
 }
 
+@media only screen and (min-width: 768px) {
+    .about-title {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-title {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+}
+
 .about-p {
     font-size: 14px;
     color: white;
     letter-spacing: -0.28px;
     padding: 0;
     line-height: 18px;
+    width: 320px;
 }
 
 .about-list {
@@ -66,15 +87,9 @@
 @media only screen and (min-width: 768px) {
     .about-list {
         flex-direction: row;   /*для планшета на 2 колонки*/
-        flex-wrap: wrap;       /*для планшета на 2 колонки*/
+        /*flex-wrap: wrap;       /*для планшета на 2 колонки*/
     }
-}
-
-@media only screen and (max-width: 375px) {
-    .about-item {
-        width: 335px;
-    }
-}   
+} 
 
 @media only screen and (min-width: 768px) {
     .about-item {
@@ -82,17 +97,23 @@
     }
 }
 
+/*@media only screen and (min-width: 768px) {
+    .about-item {
+        width: calc((100% - 80px) / 3);   /*для десктоп на 3 колонки*/
+ /*   }
+}*/
+
 .about-item {
     list-style: none;
 }
 
 .about-box-img {
-    border: 1px solid #BEA69E;
-    border-radius: 1000px;
+/*    border: 1px solid #BEA69E;
+    border-radius: 1000px;*/
     text-align: center;
 }
 
-.about-box-img {
+/*.about-box-img {
     width: 335px;
     height: 209px;
 }
@@ -109,4 +130,4 @@
         width: 488px;
         height: 260px;
     }
-}
+}*/
