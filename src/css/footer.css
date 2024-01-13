@@ -1,11 +1,9 @@
 .footer {
   margin: 0 auto;
   background-image: url(/public/Graphic-bg-footer-mobile.png);
-  background-size: 375px 535px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-position: center;
-  background-repeat: no-repeat;
-
-  max-width: 375px;
+  background-repeat: repeat;
   max-height: 535px;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -112,11 +110,9 @@
 @media screen and (min-width: 768px) {
   .footer {
     background-image: url(/public/Graphic-bg-footer-tablet.png);
-    background-size: 768px 331px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     background-position: center;
-    background-repeat: no-repeat;
-
-    max-width: 768px;
+    background-repeat: repeat;
     max-height: 331px;
     padding-top: 50px;
     padding-bottom: 25px;
