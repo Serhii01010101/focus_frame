@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 1278px) {
+@media screen and (min-width: 1280px) {
   .about {
     margin-left: 100px;
     margin-right: 100px;
@@ -29,7 +29,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 1278px) {
+@media screen and (min-width: 1280px) {
   .about-row-column {
     display: flex;
     flex-direction: row;
@@ -77,6 +77,12 @@
   text-align: left;
 }
 
+@media only screen and (min-width: 1280px) {
+    .about-p {
+        width: 268px;
+    }
+  }
+
 .about-list {
   display: flex; /*розміщення елементів списку по горизонталі в рядок*/
   gap: 20px 40px; /*для мобілки 20 - відступ між рядками, для планшета 40 - між стовпчиками*/
@@ -104,4 +110,10 @@
     border-radius: 1000px;*/
   text-align: center;
   gap: 40px;
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-item {
+      width: calc((100% - 40px) / 2); /*для десктопа на 2 колонки (фото і блок з 2 текстами)*/
+    }
 }
