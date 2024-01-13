@@ -1,77 +1,317 @@
 .footer {
-  border: 2px solid;
-  width: 1440px;
-  height: 331px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  margin: 0 auto;
+  background-image: url(/public/Graphic-bg-footer-mobile.png);
+  background-size: 375px 535px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  max-width: 375px;
+  max-height: 535px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
-.footer-all {
-  display: flex;
-}
+
 .footer-logo {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
-.contacts {
-  margin-bottom: 133px;
-  margin-right: 340px;
+
+.footer-contacts {
+  margin-bottom: 40px;
 }
-.contacts-list {
+
+.footer-contacts-list {
   color: #fff;
-  font-family: 'DM Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28em;
 }
-.social-navigation {
-  display: flex;
-  gap: 100px;
-  margin-right: 191px;
+
+.footer-contacts-tel {
+  margin-bottom: 13px;
 }
-.navigation-list {
+
+.footer-social-navigation {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 75px;
+  text-transform: uppercase;
+}
+
+.footer-navigation-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
   color: #fff;
-  font-family: 'DM Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
 }
-.social-list {
+
+.footer-social-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
   color: #fff;
-  font-family: 'DM Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
+  font-style: normal;
 }
-.input-email {
-  width: 216px;
+
+.footer-form-email {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.footer-input-email {
+  width: 267px;
   height: 60px;
   border-radius: 12px;
+  margin-right: 8px;
+  border: none;
+  padding-left: 18px;
 }
-.btn-form-email {
+
+.footer-btn-form-email {
   width: 60px;
   height: 60px;
   border-radius: 12px;
+  background: #1d1d1d;
+  border: none;
+  color: #fff;
 }
-.Privacy-list {
+
+.footer-privacy-list {
   display: flex;
   justify-content: space-between;
   color: #fff;
-  font-family: 'DM Sans';
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 1.28em;
+  line-height: 1.33em;
+  padding: 0 20px;
 }
-.social-link {
+
+.footer-social-link {
   color: #fff;
-  font-family: 'DM Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
 }
+
+.footer-privaci-text {
+  width: 148px;
+  height: 32px;
+}
+
+.footer-new-line {
+  display: block;
+  margin-top: auto;
+}
+
+/* ------------------   TABLET   ------------------ */
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url(/public/Graphic-bg-footer-tablet.png);
+    background-size: 768px 331px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    max-width: 768px;
+    max-height: 331px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .footer-all {
+    display: flex;
+    height: 220px;
+  }
+
+  .footer-logo-tel-box {
+    margin-right: 57px;
+  }
+
+  .footer-logo {
+    margin-bottom: 25px;
+  }
+
+  .footer-contacts {
+    margin-bottom: 40px;
+  }
+
+  .footer-contacts-list {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28em;
+  }
+
+  .footer-contacts-tel {
+    margin-bottom: 10px;
+    width: 143px;
+  }
+
+  .footer-social-navigation {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 74px;
+    margin-right: 61px;
+    text-transform: uppercase;
+  }
+
+  .footer-navigation-list {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+  }
+
+  .footer-form-email {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .footer-input-email {
+    width: 178px;
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 8px;
+    border: none;
+    padding-left: 18px;
+  }
+
+  .footer-btn-form-email {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background: #1d1d1d;
+    border: none;
+    color: #fff;
+  }
+
+  .footer-privacy-list {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33em;
+    padding: 0 32px;
+  }
+
+  .footer-social-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-privaci-text {
+    width: 148px;
+    height: 32px;
+  }
+
+  .footer-new-line {
+    display: block;
+    margin-top: auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer {
+    display: none;
+  }
+}
+
+/* --------------desctop-------------- */
+
+/* .footer-all {
+    display: flex;
+
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+
+}
+
+.contacts {
+    margin-bottom: 133px;
+    margin-right: 340px;
+}
+
+.contacts-list {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28em;
+}
+
+.social-navigation {
+    display: flex;
+    gap: 100px;
+    margin-right: 191px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-email {
+    width: 216px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.btn-form-email {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.Privacy-list {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28em;
+}
+
+.social-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+} */

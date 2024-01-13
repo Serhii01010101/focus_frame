@@ -15,6 +15,7 @@
 @import url('./sing-up.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+@import url('./header-menu.css');
 
 :root {
   --main-color-white: #ffffff;
