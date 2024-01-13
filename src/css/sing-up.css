@@ -88,6 +88,9 @@
   .sing-up-wrapper-info {
     max-width: 480px;
   }
+  .sing-up-form-input {
+    margin-bottom: 14px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
