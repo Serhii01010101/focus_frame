@@ -69,9 +69,7 @@
     height: 100%;
 }
 
-@media screen and (min-width:768px) {}
 
-@media screen and (min-width:1280px) {}
 
 .header-nav-list {
     display: none;
@@ -105,15 +103,6 @@
 
 }
 
-@media screen and (min-width:768px) {}
-
-@media screen and (min-width:1280px) {}
-
-.nav-link {}
-
-@media screen and (min-width:768px) {}
-
-@media screen and (min-width:1280px) {}
 
 .header-box {
     display: flex;
@@ -223,7 +212,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.5;
-    /* 155.556% */
     text-transform: uppercase;
     font-family: DM Sans;
     }
