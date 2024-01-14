@@ -64,6 +64,14 @@
   line-height: 20px; /* 125% */
   text-transform: uppercase;
   margin-bottom: 20px;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  border: none;
+}
+
+.sing-up-form-btn:hover,
+.sing-up-form-btn:focus {
+  color: rgba(190, 166, 158, 1);
+  background: #1d1d1d;
 }
 
 .sing-up-form-agreement {

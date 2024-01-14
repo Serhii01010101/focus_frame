@@ -1,4 +1,4 @@
-<section class="section-sing-up">
+<section class="section-sing-up" id="sing-up">
   <div class="container sing-up-container">
     <div class="sing-up-wrapper-info">
       <h2 class="sing-up-title">
@@ -51,20 +51,43 @@
     </div>
     <div class="sing-up-wrapper-photos">
       <div class="sing-up-wrapper-lins">
-        <img
-          class="sing-up-img-lense"
-          src="./img/sign-up/lense.png"
-          alt="lins"
-          width="180"
-        />
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/sign-up/lense@1x.png 1x,
+              ../img/sign-up/lense@2x.png 2x
+            "
+          />
+
+          <img
+            class="sing-up-img-lense"
+            src="../img/sign-up/lense@1x.png"
+            alt="lense"
+            loading="lazy"
+          />
+        </picture>
       </div>
       <div class="sing-up-wrapper-camera">
-        <img
-          class="sing-up-img-camera"
-          src="./img/sign-up/camera.png"
-          alt="camera"
-          width="240"
-        />
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/sign-up/camera@1x.png 1x,
+              ../img/sign-up/camera@2x.png 2x
+            "
+          />
+
+          <img
+            class="sing-up-img-camera"
+            src="../img/sign-up/camera@1x.png"
+            alt="black camera "
+            loading="lazy"
+            width="240"
+          />
+        </picture>
       </div>
     </div>
   </div>
