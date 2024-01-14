@@ -43,26 +43,66 @@
   letter-spacing: -4%;
 }
 
-.about-p {
+.about-p1, .about-p2 {
   font-size: 14px;
   color: white;
   letter-spacing: -0.28px;
   padding: 0;
   line-height: 18px;
-  width: 320px;
   text-align: left;
 }
 
+/*@media only screen and (max-width: 767px) {
+    .about-p1, .about-p2 {
+        width: 320px;   /*для мобілки текст 1-і-2 колонка 14-01-2024*/
+   /* }*/
+/*}*/
+
+
+@media only screen and (min-width: 768px) {
+    .about-p1, .about-p2 {
+        font-size: 16px;
+        line-height: 20px;
+        /*line-height: 1,25;*/
+        width: 280px;
+        letter-spacing: -2%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-p1 {  
+        width: 268px; /*для десктоп текст 1-ша колонка 14-01-2024*/
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-p2 {  
+        width: 264px; /*для десктоп текст 2-а колонка 14-01-2024*/
+    }
+}
+
 .about-list {
-  display: flex; /*розміщення елементів списку по горизонталі в рядок*/
-  gap: 20px 40px; /*для мобілки 20 - відступ між рядками, для планшета 40 - між стовпчиками*/
-  flex-direction: column; /*для мобілки розміщення в стовпчик*/
+  display: flex;            /*розміщення елементів списку по горизонталі в рядок*/
+  gap: 20px;                /*для мобілки 20 - відступ між рядками*/
+  flex-direction: column;   /*для мобілки розміщення в стовпчик*/
 }
 
 @media only screen and (min-width: 768px) {
   .about-list {
-    flex-direction: row; /*для планшета на 2 колонки*/
+    flex-direction: row;    /*для планшета на 2 колонки*/
+    gap: 40px;              /*для планшета 40 - між стовпчиками*/
   }
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-list {
+        gap: 20px; /*для десктоп - між 2 колонками*/
+    }
+}
+
+.about-item {
+    list-style: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -71,13 +111,27 @@
   }
 }
 
-.about-item {
-  list-style: none;
-}
-
 .about-box-img {
-  /*    border: 1px solid #BEA69E;
+  /*border: 1px solid #BEA69E;
     border-radius: 1000px;*/
   text-align: center;
   gap: 40px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+    .about-box-img {
+      width: 600px; /*для планшета на 2 колонки 14-01-2024*/
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+    .about-box-img {
+        gap: 20px; /*для десктоп на 2 колонки 14-01-2024*/
+    }
+}
+
+/*@media only screen and (min-width: 1280px) {
+    .about-box-img {
+      width: 488px; /*для десктоп на 2 колонки 14-01-2024*/
+    /*}
+}*/
