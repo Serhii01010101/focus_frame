@@ -256,7 +256,8 @@ h1 {
 }
 
 .hero-star {
-  fill: #121212;
+  fill: #bea69e;
+  stroke: #121212;
 }
 
 .hero-rev {
