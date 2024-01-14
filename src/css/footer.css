@@ -1,14 +1,16 @@
 .footer {
   margin: 0 auto;
   background-image: url(/public/Graphic-bg-footer-mobile.png);
-  background-size: 375px 535px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-position: center;
-  background-repeat: no-repeat;
-
-  max-width: 375px;
+  background-repeat: repeat;
   max-height: 535px;
   padding-top: 40px;
   padding-bottom: 20px;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-logo {
@@ -60,6 +62,7 @@
 
 .footer-form-email {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 
@@ -67,7 +70,7 @@
   width: 267px;
   height: 60px;
   border-radius: 12px;
-  margin-right: 8px;
+  
   border: none;
   padding-left: 18px;
 }
@@ -88,7 +91,7 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 1.33em;
-  padding: 0 20px;
+  
 }
 
 .footer-social-link {
@@ -112,11 +115,9 @@
 @media screen and (min-width: 768px) {
   .footer {
     background-image: url(/public/Graphic-bg-footer-tablet.png);
-    background-size: 768px 331px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     background-position: center;
-    background-repeat: no-repeat;
-
-    max-width: 768px;
+    background-repeat: repeat;
     max-height: 331px;
     padding-top: 50px;
     padding-bottom: 25px;
@@ -133,6 +134,7 @@
 
   .footer-logo {
     margin-bottom: 25px;
+    
   }
 
   .footer-contacts {
@@ -158,6 +160,15 @@
     margin-right: 61px;
     text-transform: uppercase;
   }
+    .footer-social-link:hover,
+    .footer-social-link:focus {
+      color: rgba(190, 166, 158, 1);
+  
+    }
+    .footer-social-link{
+      transition: color 250ms ease-in-out;
+    }
+        
 
   .footer-navigation-list {
     white-space: nowrap;
@@ -211,7 +222,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 1.33em;
-    padding: 0 32px;
+   
   }
 
   .footer-social-link {
@@ -233,8 +244,135 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer {
-    display: none;
+
+
+.footer {
+    background-image: url(/public/Graphic-bg-footer-tablet.png);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background-position: center;
+    background-repeat: repeat;
+    max-height: 331px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .footer-all {
+    display: flex;
+    height: 220px;
+  }
+
+  .footer-logo-tel-box {
+    margin-right: 284px;
+  }
+
+  .footer-logo {
+    margin-bottom: 25px;
+
+  }
+
+ 
+
+  .footer-contacts-list {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28em;
+  }
+
+  .footer-contacts-tel {
+    margin-bottom: 10px;
+    width: 143px;
+  }
+
+  .footer-social-navigation {
+    display: flex;
+    gap: 55px;
+    margin-bottom: 50px;
+    margin-right: 135px;
+    text-transform: uppercase;
+  }
+
+  .footer-social-link:hover,
+  .footer-social-link:focus {
+    color: rgba(190, 166, 158, 1);
+
+  }
+
+  .footer-social-link {
+    transition: color 250ms ease-in-out;
+  }
+
+
+  .footer-navigation-list {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+  }
+
+  .footer-form-email {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .footer-input-email {
+    width: 216px;
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 16px;
+    border: none;
+    padding-left: 18px;
+  }
+
+  .footer-btn-form-email {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background: #1d1d1d;
+    border: none;
+    color: #fff;
+  }
+
+  .footer-privacy-list {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33em;
+
+  }
+
+  .footer-social-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-privaci-text {
+    width: 148px;
+    height: 32px;
+  }
+
+  .footer-new-line {
+    display: block;
+    margin-top: auto;
   }
 }
 
