@@ -1,3 +1,10 @@
+.container-hero {
+  margin-top: 20px;
+  padding-bottom: 80px;
+  background: #1d1d1d;
+  border-radius: 30px;
+}
+
 h1 {
   color: #fff;
   font-family: DM Sans;
@@ -6,7 +13,29 @@ h1 {
   font-weight: 500;
   line-height: 44px; /* 110% */
   letter-spacing: -1.6px;
-  padding: 40px 20px 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 295px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    width: 517px;
+
+    font-size: 60px;
+    line-height: 64px; /* 106.667% */
+    letter-spacing: -2.4px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h1 {
+    width: 563px;
+
+    font-size: 64px;
+    line-height: 68px; /* 106.25% */
+    letter-spacing: -2.56px;
+  }
 }
 
 .photography {
@@ -19,6 +48,22 @@ h1 {
   letter-spacing: -1.6px;
 }
 
+@media screen and (min-width: 768px) {
+  .photography {
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photography {
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -2.56px;
+  }
+}
+
 .hero-section-title-info {
   color: #fff;
   font-family: DM Sans;
@@ -27,29 +72,194 @@ h1 {
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 295px;
   margin-bottom: 40px;
 }
 
-.students {
+@media screen and (min-width: 768px) {
+  .hero-section-title-info {
+    width: 418px;
+    height: 54px;
+    flex-shrink: 0;
+  }
+}
+
+.students-list {
   display: flex;
-  flex-direction: row;
   width: 109px;
+  height: 44px;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .students-list {
+    width: 135px;
+    height: 54px;
+  }
+}
+
+.students-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .students-section {
+    flex-direction: row;
+    gap: 12px;
+  }
+}
+
+.students-item {
+  position: absolute;
+  width: 44px;
   height: 44px;
   flex-shrink: 0;
   border-radius: 100px;
-  border: 2px solid #1d1d1d;
-  background: var(
-    --avatar-user-square-adriana-o-sullivan-neutral-background,
-    url(<path-to-image>),
-    lightgray 50% / cover no-repeat,
-    #e0e0e0
-  );
 }
 
-.container-hero {
-  padding-bottom: 80px;
-  background: #1d1d1d;
-  border-radius: 30px;
+@media screen and (min-width: 768px) {
+  .students-item {
+    width: 54px;
+    height: 54px;
+  }
+}
+
+.students-item:nth-child(1) {
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.students-item:nth-child(2) {
+  top: 0;
+  left: 32px;
+  z-index: 2;
+}
+
+.students-item:nth-child(3) {
+  top: 0;
+  left: 64px;
+  z-index: 1;
+}
+
+.students-img {
+}
+
+.students-and-star {
+  padding-left: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.students-arrow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .students-arrow {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+
+.students-text {
+  width: 67px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.56px;
+}
+
+@media screen and (min-width: 768px) {
+  .students-arrow {
+    font-size: 16px;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.64px;
+  }
+}
+
+.hero-arrow-icon {
+  fill: #fff;
+  width: 18px;
+  height: 8.66px;
+}
+
+.star-section {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.star-numb {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hero-star-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #bea69e;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-star-link {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+}
+
+.hero-star {
+  fill: #121212;
+}
+
+.hero-rev {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.56px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-rev {
+    font-size: 16px;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.64px;
+  }
+}
+
+.hero-numb {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: -0.64px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-numb {
+    line-height: 20px; /* 125% */
+  }
+}
+
+.img-hero {
 }
