@@ -44,6 +44,7 @@
   width: 100%;
   margin-bottom: 8px;
   outline: none;
+  /* transform: 250ms ; */
 }
 .sing-up-form-message {
   margin-bottom: 40px;
@@ -52,7 +53,7 @@
 .sing-up-form-input:hover,
 .sing-up-form-input:focus .sing-up-form-message:hover,
 .sing-up-form-message:focus {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .sing-up-form-btn {
