@@ -20,7 +20,7 @@
 
     <title>Focus.Frame</title>
     <script type="module" crossorigin src="/focus_frame/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/focus_frame/assets/index-f6f0df6e.css">
+    <link rel="stylesheet" href="/focus_frame/assets/index-766d89ea.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -72,68 +72,103 @@
         <!-- HERO -->
         <section class="hero-section">
   <div class="container container-hero">
-    <div class="hero-section-title">
-      <h1>
-        Discover the magic of <span class="photography">photography</span> in
-        our school
-      </h1>
-      <p class="hero-section-title-info">
-        Our photography school offers an unforgettable journey, where you can
-        learn the basics of composition, master technical skills, translate your
-        unique ideas.
-      </p>
-      <div class="students-and-star">
-        <div class="students-section">
-          <ul class="students-list">
-            <li class="students-item">
-              <img
-                class="students-img"
-                src="../img/hero/girl1-mob1x.png"
-                alt=""
-              />
-            </li>
-            <li class="students-item">
-              <img
-                class="students-img"
-                src="../img/hero/boy-mob1x.png"
-                alt=""
-              />
-            </li>
-            <li class="students-item">
-              <img
-                class="students-img"
-                src="../img/hero/girl2-mob1x.png"
-                alt=""
-              />
-            </li>
-          </ul>
+    <div class="wrapper-bg">
+      <!-- <div class="hero-section-title"> -->
+        <div class="wrapper-title">
 
-          <a href="">
-            <div class="students-arrow">
-              <p class="students-text">Our happy students</p>
-              <svg class="hero-arrow-icon" width="18" height="8.66">
-                <use href="../public/favicon.svg#icon-rigth-arrow"></use>
-              </svg>
+          <h1>
+            Discover the magic of <span class="photography">photography</span> in
+            our school
+          </h1>
+          <p class="hero-section-title-info">
+            Our photography school offers an unforgettable journey, where you can
+            learn the basics of composition, master technical skills, translate
+            your unique ideas.
+          </p>
+          <div class="students-and-star">
+            <div class="students-section">
+              <ul class="students-list">
+                <li class="students-item">
+                  <img
+                    class="students-img"
+                    src="../img/hero/girl1-mob1x.png"
+                    alt=""
+                  />
+                </li>
+                <li class="students-item">
+                  <img
+                    class="students-img"
+                    src="../img/hero/boy-mob1x.png"
+                    alt=""
+                  />
+                </li>
+                <li class="students-item">
+                  <img
+                    class="students-img"
+                    src="../img/hero/girl2-mob1x.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+  
+              <a href="">
+                <div class="students-arrow">
+                  <p class="students-text">Our happy students</p>
+                  <svg class="hero-arrow-icon" width="18" height="8.66">
+                    <use href="../public/favicon.svg#icon-rigth-arrow"></use>
+                  </svg>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-
-        <div class="star-section">
-          <a class="hero-star-link" href="">
-            <svg class="hero-star" width="20" height="20">
-              <use href="../public/favicon.svg#icon-star"></use>
-            </svg>
-          </a>
-          <div class="star-numb">
-            <span class="hero-rev">Reviews</span>
-            <span class="hero-numb">+1500</span>
+  
+            <div class="star-section">
+              <a class="hero-star-link" href="">
+                <svg class="hero-star" width="20" height="20">
+                  <use href="../public/favicon.svg#icon-star"></use>
+                </svg>
+              </a>
+              <div class="star-numb">
+                <span class="hero-rev">Reviews</span>
+                <span class="hero-numb">+1500</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      
 
-    <div class="img-hero">
-      <img src="../img/hero/hero-mob1x.png" alt="camera-man" />
+      <div class="img-hero">
+        <picture>
+                    <!-- Desktop screen -->
+                    <source
+                        media="(min-width: 1280px)"
+                        srcset="
+                        ../img/hero/hero-desk1x.png,
+                        ../img/hero/hero-desk2x.png 2x"
+                    />
+
+                    <!-- Tablet screen -->
+                    <source
+                        media="(min-width: 768px)"
+                        srcset="
+                        ../img/hero/hero-tablet1x.png,
+                        ../img/hero/hero-tablet2x.png 2x"
+                    />
+
+                    <!-- Mobile screen -->
+                    <source
+                        media="(max-width: 767px)"
+                        srcset="
+                        ../img/hero/hero-mob1x.png 1x,
+                        ../img/hero/hero-mob2x.png 2x"
+                    />
+
+                    <img class="hero-box-src"
+                    src="../img/hero/hero-mob1x.png" 
+                    alt="black camera and pink background" 
+                    loading="lazy"/>
+                </picture>
+      </div>
+      </div>
     </div>
   </div>
 </section>
@@ -141,7 +176,7 @@
     </div>
 
         <!-- advertisement -->
-       <section>
+       <section class="advitrismant-section">
   <div class="container container-advirtisment">
     <link
       href="https://fonts.googleapis.com/css?family=Pridi:600"
@@ -169,65 +204,71 @@
 
        <!-- ABOUT -->
         <section class="about" id="about-ua">
-    <div class=" container about-container">
-        <h2 class="about-title">About <span class="about-title-us">Us</span></h2>
-        <div class="about-row-column">
-            <div class="about-box-img"> 
+  <div class="container about-container">
+    <h2 class="about-title">About <span class="about-title-us">Us</span></h2>
+    <div class="about-row-column">
+      <div class="about-box-img">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="/focus_frame/assets/about-desk1x-64d58b9d.png 1x, /focus_frame/assets/about-desk2x-fc67bf97.png 2x"
+          />
 
-                <picture>
-                    <!-- Desktop screen -->
-                    <source
-                        media="(min-width: 1280px)"
-                        srcset="/focus_frame/assets/about-desk1x-64d58b9d.png 1x, /focus_frame/assets/about-desk2x-fc67bf97.png 2x"
-                    />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/focus_frame/assets/about-table1x-a27e9f89.png 1x, /focus_frame/assets/about-table2x-5511cfb9.png 2x"
+          />
 
-                    <!-- Tablet screen -->
-                    <source
-                        media="(min-width: 768px)"
-                        srcset="/focus_frame/assets/about-table1x-a27e9f89.png 1x, /focus_frame/assets/about-table2x-5511cfb9.png 2x"
-                    />
+          <!-- Mobile screen -->
+          <source
+            media="(max-width: 767px)"
+            srcset="/focus_frame/assets/about-mob1x-c98049cc.png 1x, /focus_frame/assets/about-mob2x-e50092df.png 2x"
+          />
 
-                    <!-- Mobile screen -->
-                    <source
-                        media="(max-width: 767px)"
-                        srcset="/focus_frame/assets/about-mob1x-c98049cc.png 1x, /focus_frame/assets/about-mob2x-e50092df.png 2x"
-                    />
+          <img
+            class="about-box-src"
+            src="/focus_frame/assets/about-desk1x-64d58b9d.png"
+            alt="black camera and pink background"
+            loading="lazy"
+          />
+        </picture>
+      </div>
 
-                    <img class="about-box-src"
-                    src="/focus_frame/assets/about-desk1x-64d58b9d.png" 
-                    alt="black camera and pink background" 
-                    loading="lazy"/>
-                </picture>
-            </div> 
-
-            <div class="about-box-img">
-            <ul class="about-list">
-                <li class="about-item">
-                    <div class="about-ul-li-div"> 
-                        <p class="about-p1">
-                            Our photography school is designed to teach you everything you need to know about this magical art. 
-                            Regardless of your experience or skill level, we offer a wide range of courses to suit your needs and interests. 
-                            Our teaching team consists of experienced photographers who have many years of experience in this field. 
-                            They strive not only to share their knowledge, but also to inspire you to develop and express your unique creativity 
-                        </p>
-                    </div>
-                </li>
-
-
-                <li class="about-item">
-                    <div class="about-ul-li-div"> 
-                        <p class="about-p2">
-                            Our courses cover a wide range of topics, from the basics of photography and equipment use to professional image processing and creating 
-                            impressive compositions. You will have the opportunity to learn the technical aspects of photography, discover your own style and develop your own visual language.
-                        </p>
-                    </div>
-                </li>
-            </ul>
+      <div class="about-box-img">
+        <ul class="about-list">
+          <li class="about-item">
+            <div class="about-ul-li-div">
+              <p class="about-p">
+                Our photography school is designed to teach you everything you
+                need to know about this magical art. Regardless of your
+                experience or skill level, we offer a wide range of courses to
+                suit your needs and interests. Our teaching team consists of
+                experienced photographers who have many years of experience in
+                this field. They strive not only to share their knowledge, but
+                also to inspire you to develop and express your unique
+                creativity
+              </p>
             </div>
-        </div>
-    </div>
-</section> 
+          </li>
 
+          <li class="about-item">
+            <div class="about-ul-li-div">
+              <p class="about-p">
+                Our courses cover a wide range of topics, from the basics of
+                photography and equipment use to professional image processing
+                and creating impressive compositions. You will have the
+                opportunity to learn the technical aspects of photography,
+                discover your own style and develop your own visual language.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
 
         <!-- our-courses -->
@@ -369,7 +410,7 @@
 
 
         <!-- sing-up -->
-        <section class="section-sing-up">
+        <section class="section-sing-up" id="sing-up">
   <div class="container sing-up-container">
     <div class="sing-up-wrapper-info">
       <h2 class="sing-up-title">
@@ -422,20 +463,43 @@
     </div>
     <div class="sing-up-wrapper-photos">
       <div class="sing-up-wrapper-lins">
-        <img
-          class="sing-up-img-lense"
-          src="/focus_frame/assets/lense-3910a1c6.png"
-          alt="lins"
-          width="180"
-        />
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/sign-up/lense@1x.png 1x,
+              ../img/sign-up/lense@2x.png 2x
+            "
+          />
+
+          <img
+            class="sing-up-img-lense"
+            src="../img/sign-up/lense@1x.png"
+            alt="lense"
+            loading="lazy"
+          />
+        </picture>
       </div>
       <div class="sing-up-wrapper-camera">
-        <img
-          class="sing-up-img-camera"
-          src="/focus_frame/assets/camera-d93b8fcc.png"
-          alt="camera"
-          width="240"
-        />
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/sign-up/camera@1x.png 1x,
+              ../img/sign-up/camera@2x.png 2x
+            "
+          />
+
+          <img
+            class="sing-up-img-camera"
+            src="../img/sign-up/camera@1x.png"
+            alt="black camera "
+            loading="lazy"
+            width="240"
+          />
+        </picture>
       </div>
     </div>
   </div>
