@@ -310,8 +310,14 @@ h1 {
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero-img {
-    height: 520px;
-    width: 397px;
+  .wrapper-bg {
+    position: relative;
+  }
+  .img-hero {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+  }
+  .hero-box-src {
   }
 }
