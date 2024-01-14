@@ -30,9 +30,7 @@
 
 h1 {
   color: #fff;
-
   font-size: 40px;
-
   font-weight: 500;
   line-height: 1.1; /* 110% */
   letter-spacing: -1.6px;
@@ -42,8 +40,7 @@ h1 {
 
 @media screen and (min-width: 768px) {
   h1 {
-    width: 517px;
-
+    width: 490px;
     font-size: 60px;
     line-height: 1.06; /* 106.667% */
     letter-spacing: -2.4px;
@@ -297,6 +294,9 @@ h1 {
 .img-hero {
   margin-top: 31px;
 }
+.hero-box-src {
+  margin: 0 auto;
+}
 
 @media only screen and (min-width: 768px) {
   .img-hero {
@@ -318,7 +318,5 @@ h1 {
     position: absolute;
     right: 50px;
     bottom: 0;
-  }
-  .hero-box-src {
   }
 }
