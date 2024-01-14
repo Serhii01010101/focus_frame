@@ -50,8 +50,8 @@
   margin-bottom: 40px;
   resize: none;
 }
-.sing-up-form-input:hover,
-.sing-up-form-input:focus .sing-up-form-message:hover,
+
+.sing-up-form-input:focus,
 .sing-up-form-message:focus {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
