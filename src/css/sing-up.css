@@ -43,11 +43,18 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   width: 100%;
   margin-bottom: 8px;
+  outline: none;
 }
 .sing-up-form-message {
   margin-bottom: 40px;
   resize: none;
 }
+.sing-up-form-input:hover,
+.sing-up-form-input:focus .sing-up-form-message:hover,
+.sing-up-form-message:focus {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .sing-up-form-btn {
   display: flex;
   width: 100%;
