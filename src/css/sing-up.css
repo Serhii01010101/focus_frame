@@ -44,7 +44,7 @@
   width: 100%;
   margin-bottom: 8px;
   outline: none;
-  /* transform: 250ms ; */
+  transition: border 250ms ease-in-out;
 }
 .sing-up-form-message {
   margin-bottom: 40px;
