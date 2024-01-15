@@ -8,7 +8,7 @@
     height: 100%;
     opacity: 0;
     transform: translateX(100%);
-    transition: transform 0 ease-in, visibility 0 ease-in, opacity 0 ease-in;
+    transition: transform 1ms ease-in, visibility 1ms ease-in, opacity 1ms ease-in;
     visibility: hidden;
     pointer-events: none;
 }
