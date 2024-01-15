@@ -11,6 +11,7 @@
 .main-container{
   display: flex;
   flex-direction: column;
+ 
 }
 
 .footer-logo {
@@ -125,7 +126,11 @@
 
   .footer-all {
     display: flex;
-    height: 220px;
+    
+  }
+  .main-container{
+    display: flex;
+    gap: 74px;
   }
 
   .footer-logo-tel-box {
@@ -257,7 +262,11 @@
 
   .footer-all {
     display: flex;
-    height: 220px;
+    
+  }
+   .main-container {
+   display: flex;
+   gap: 50px;
   }
 
   .footer-logo-tel-box {
