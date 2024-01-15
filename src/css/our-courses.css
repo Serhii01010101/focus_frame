@@ -137,6 +137,7 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  pointer-events: none;
 }
 .courses-link.one::before {
     content: '01';
