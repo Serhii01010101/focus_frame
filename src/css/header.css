@@ -1,16 +1,17 @@
 .header-main {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    width: 100%;
     padding-top: 20px;
 }
 
 
-.header-container {
-    max-width: 375px;
-    
-}
+
 
 @media screen and (min-width:768px) {
     .header-container {
-        max-width: 768px;
         display: flex;
         gap: 14px;
     }
@@ -18,7 +19,6 @@
 
 @media screen and (min-width:1280px) {
     .header-container {
-        max-width: 1280px;
         gap: 20px;
 
     }
@@ -32,7 +32,7 @@
     border-radius: 12px;
     background: #121212;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    padding: 15px 20px;
+    padding: 9px 20px;
     flex-grow: 1;
 }
 

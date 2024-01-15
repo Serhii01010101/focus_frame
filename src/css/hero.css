@@ -1,10 +1,74 @@
-.container-hero {
+/* .container-hero {
   padding-top: 20px;
 }
 
 @media only screen and (min-width: 1280px) {
   .container-hero {
     padding-top: 80px;
+  }
+} */
+
+/* MOBILE */
+
+.hero-section {
+  background-image: url(../img/hero/backHeroMob@1x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image:
+      url('../img/hero/backHeroMob@2x.png');
+  }
+}
+
+
+
+/* TABLET */
+
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    background-image: url('../img/hero/backHeroTab@1x.png');
+    background-size: cover;
+
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image:
+      url('../img/hero/backHeroTab@2x.png');
+
+  }
+}
+
+
+
+/* DESKTOP*/
+
+
+@media only screen and (min-width: 1280px) {
+  .hero-section {
+    background-image: url('../img/hero/backHeroDesc@1x.png');
+    background-size: contain;
+
+    padding-bottom: 150px;
+    padding-top: 160px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: url('../img/hero/backHeroDesc@2x.png');
   }
 }
 
