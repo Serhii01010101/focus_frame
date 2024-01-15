@@ -11,7 +11,7 @@
 /* MOBILE */
 
 .hero-section {
-  /* background-image: url(../img/hero/backHeroMob@1x.png); */
+  background-image: url(../img/hero/backHeroMob@1x.png);
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -22,7 +22,7 @@
 
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .hero-section {
-    /* background-image: url('../img/hero/backHeroMob@2x.png'); */
+    background-image: url('../img/hero/backHeroMob@2x.png');
   }
 }
 
