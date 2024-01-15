@@ -4,7 +4,6 @@
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-position: center;
   background-repeat: repeat;
-  max-height: 535px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -119,7 +118,6 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     background-position: center;
     background-repeat: repeat;
-    max-height: 331px;
     padding-top: 50px;
     padding-bottom: 25px;
   }
@@ -163,6 +161,7 @@
     gap: 25px;
     margin-right: 61px;
     text-transform: uppercase;
+    margin-bottom: 0;
   }
     .footer-social-link:hover,
     .footer-social-link:focus {
@@ -255,7 +254,6 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     background-position: center;
     background-repeat: repeat;
-    max-height: 331px;
     padding-top: 50px;
     padding-bottom: 25px;
   }
