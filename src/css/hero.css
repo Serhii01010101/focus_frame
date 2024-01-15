@@ -178,7 +178,14 @@ h1 {
 
 .students-and-star {
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .students-and-star {
+    gap: 40px;
+    justify-content: start;
+  }
 }
 
 .students-arrow {
