@@ -4,13 +4,13 @@
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-position: center;
   background-repeat: repeat;
-  max-height: 535px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 .main-container{
   display: flex;
   flex-direction: column;
+ 
 }
 
 .footer-logo {
@@ -118,14 +118,17 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     background-position: center;
     background-repeat: repeat;
-    max-height: 331px;
     padding-top: 50px;
     padding-bottom: 25px;
   }
 
   .footer-all {
     display: flex;
-    height: 220px;
+    
+  }
+  .main-container{
+    display: flex;
+    gap: 74px;
   }
 
   .footer-logo-tel-box {
@@ -156,9 +159,9 @@
   .footer-social-navigation {
     display: flex;
     gap: 25px;
-    margin-bottom: 74px;
     margin-right: 61px;
     text-transform: uppercase;
+    margin-bottom: 0;
   }
     .footer-social-link:hover,
     .footer-social-link:focus {
@@ -251,14 +254,17 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     background-position: center;
     background-repeat: repeat;
-    max-height: 331px;
     padding-top: 50px;
     padding-bottom: 25px;
   }
 
   .footer-all {
     display: flex;
-    height: 220px;
+    
+  }
+   .main-container {
+   display: flex;
+   gap: 50px;
   }
 
   .footer-logo-tel-box {
@@ -287,7 +293,6 @@
   .footer-social-navigation {
     display: flex;
     gap: 55px;
-    margin-bottom: 50px;
     margin-right: 135px;
     text-transform: uppercase;
   }

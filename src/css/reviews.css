@@ -30,11 +30,11 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -1.12px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -54,8 +54,6 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
-  width: 335px;
-  height: 244px;
 }
 @media screen and (min-width: 768px) {
   .rev-item {
@@ -91,7 +89,7 @@
   .rev-full-box-user {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -208,7 +206,6 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.28px;
-  width: 295px;
 }
 @media screen and (min-width: 768px) {
   .rev-text {
