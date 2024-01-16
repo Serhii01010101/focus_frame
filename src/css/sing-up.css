@@ -1,8 +1,7 @@
 .section-sing-up {
   padding-bottom: 80px;
 }
-.sing-up-wrapper-info {
-}
+
 .sing-up-title {
   color: #fff;
   font-family: DM Sans;
@@ -30,10 +29,7 @@
 .sing-up-form {
   width: 100%;
 }
-.sing-up-form-wrapper {
-}
-.sing-up-form-elem {
-}
+
 .sing-up-form-input,
 .sing-up-form-message {
   color: #fff;
